@@ -40,10 +40,10 @@
                 <h4 class="mb-0">Create an Account</h4>
             </div>
             <div class="card-body">
-                <!-- ✅ Success message -->
+                <!-- Success message -->
                 <div th:if="${succmsg}" class="alert alert-success" th:text="${succmsg}"></div>
 
-                <!-- ❌ Error message -->
+                <!-- Error message -->
                 <div th:if="${errMsg}" class="alert alert-danger" th:text="${errMsg}"></div>
 
                 <form th:action="@{/register}" method="post" th:object="${user}">

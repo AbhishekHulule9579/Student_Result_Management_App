@@ -92,12 +92,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- Your custom dependency -->
-		<dependency>
-			<groupId>in.ashokit</groupId>
-			<artifactId>01-Report-application</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+
 	</dependencies>
 
 	<build>
